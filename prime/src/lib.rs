@@ -5,6 +5,7 @@ use std::io::Write;
 use std::io::BufWriter;
 
 const RESULT_FILENAME : &str = "result.prime";
+const U32_SIZE : usize = 4294967296;
 
 #[derive(Debug)]
 pub struct Generator {
@@ -25,7 +26,7 @@ impl Generator {
     }
 
     pub fn generate(&mut self) -> () {
-        let mut eliminated: Vec<bool> = vec![false; 4294967296];
+        let mut eliminated: Vec<bool> = vec![false; U32_SIZE];
         let mut primes : Vec<u32> = Vec::new();
         let mut i = 0;
 

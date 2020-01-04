@@ -1,3 +1,4 @@
 .idea
 *.prime
 prime/Cargo.lock
+prime/target
