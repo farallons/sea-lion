@@ -1,2 +1,8 @@
 # sea-lion
-A Rust library - Member of the farallons collection of libraries
+A Rust library 
+
+---
+
+Member of the farallons collection of libraries
+
+---
